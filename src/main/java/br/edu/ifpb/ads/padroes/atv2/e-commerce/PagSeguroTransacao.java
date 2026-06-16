@@ -1,10 +1,6 @@
 package atv2.sdk.pagseguro;
 
-/**
- * Simula o objeto de transação retornado pelo SDK do PagSeguro.
- * Código de status: 1=Aguardando, 2=Em análise, 3=Paga, 4=Disponível,
- *                   5=Em disputa, 6=Devolvida, 7=Cancelada
- */
+
 public class PagSeguroTransacao {
 
     private final String codigo;

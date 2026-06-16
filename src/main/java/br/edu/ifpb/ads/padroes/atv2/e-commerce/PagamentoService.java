@@ -5,18 +5,7 @@ import com.google.inject.Inject;
 
 import java.math.BigDecimal;
 
-/**
- * Serviço de pagamento.
- *
- * Depende APENAS da interface PagamentoGateway — nunca de PayPal, Stripe
- * ou PagSeguro diretamente. O Google Guice injeta a implementação correta
- * de acordo com o módulo configurado na Main.
- *
- * Para adicionar um novo gateway (ex.: Pix), basta:
- *  1. Criar PixGateway implements PagamentoGateway
- *  2. Criar PixModule que faz a ligação no Guice
- * Esta classe não precisa ser modificada — Open/Closed em prática.
- */
+
 public class PagamentoService {
 
     private final PagamentoGateway gateway;

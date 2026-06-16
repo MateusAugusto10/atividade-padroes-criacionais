@@ -7,9 +7,7 @@ import com.google.inject.AbstractModule;
 import com.google.inject.Provides;
 import com.google.inject.Singleton;
 
-/**
- * Módulo Guice que configura o PagamentoService para usar PagSeguro.
- */
+
 public class PagSeguroModule extends AbstractModule {
 
     @Override

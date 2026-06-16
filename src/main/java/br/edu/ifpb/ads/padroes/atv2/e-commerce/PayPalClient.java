@@ -2,10 +2,7 @@ package atv2.sdk.paypal;
 
 import java.math.BigDecimal;
 
-/**
- * Mock da biblioteca SDK do PayPal.
- * Simula as classes que viriam do pacote com.paypal.sdk em produção.
- */
+
 public class PayPalClient {
 
     private final String clientId;

@@ -2,10 +2,7 @@ package atv2.sdk.pagseguro;
 
 import java.math.BigDecimal;
 
-/**
- * Mock da biblioteca SDK do PagSeguro.
- * Simula as classes que viriam do pacote br.com.pagseguro em produção.
- */
+
 public class PagSeguroApi {
 
     private final String token;

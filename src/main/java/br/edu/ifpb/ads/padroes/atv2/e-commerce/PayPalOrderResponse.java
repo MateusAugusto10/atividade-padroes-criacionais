@@ -1,6 +1,6 @@
 package atv2.sdk.paypal;
 
-/** Simula o objeto de resposta retornado pelo SDK do PayPal. */
+
 public class PayPalOrderResponse {
 
     private final String orderId;

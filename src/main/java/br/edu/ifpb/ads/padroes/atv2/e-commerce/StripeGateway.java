@@ -6,9 +6,7 @@ import com.google.inject.Inject;
 
 import java.math.BigDecimal;
 
-/**
- * Adapter que conecta o SDK do Stripe à interface PagamentoGateway.
- */
+
 public class StripeGateway implements PagamentoGateway {
 
     private final StripeClient client;

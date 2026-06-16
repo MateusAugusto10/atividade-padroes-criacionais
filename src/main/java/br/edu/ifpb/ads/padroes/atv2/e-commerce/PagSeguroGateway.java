@@ -6,9 +6,7 @@ import com.google.inject.Inject;
 
 import java.math.BigDecimal;
 
-/**
- * Adapter que conecta o SDK do PagSeguro à interface PagamentoGateway.
- */
+
 public class PagSeguroGateway implements PagamentoGateway {
 
     private final PagSeguroApi api;

@@ -2,13 +2,7 @@ package atv2.gateway;
 
 import java.math.BigDecimal;
 
-/**
- * Abstração central do sistema.
- *
- * PagamentoService depende apenas desta interface — nunca de um gateway
- * concreto. Isso garante extensibilidade: novos gateways (Pix, MercadoPago)
- * só precisam implementar esta interface, sem tocar em PagamentoService.
- */
+
 public interface PagamentoGateway {
 
     /**

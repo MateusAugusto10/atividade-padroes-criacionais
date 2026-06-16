@@ -6,13 +6,7 @@ import com.google.inject.Inject;
 
 import java.math.BigDecimal;
 
-/**
- * Adapter que conecta o SDK do PayPal à interface PagamentoGateway.
- *
- * PagamentoService nunca enxerga PayPalClient diretamente — só vê
- * PagamentoGateway. O Guice injeta esta implementação quando configurado
- * pelo módulo PayPalModule.
- */
+
 public class PayPalGateway implements PagamentoGateway {
 
     private final PayPalClient client;

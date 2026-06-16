@@ -7,12 +7,7 @@ import com.google.inject.AbstractModule;
 import com.google.inject.Provides;
 import com.google.inject.Singleton;
 
-/**
- * Módulo Guice que configura o PagamentoService para usar PayPal.
- *
- * O bind() diz ao Guice: "sempre que alguém pedir PagamentoGateway,
- * entregue um PayPalGateway".
- */
+
 public class PayPalModule extends AbstractModule {
 
     @Override

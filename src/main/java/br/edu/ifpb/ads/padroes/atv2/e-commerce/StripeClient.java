@@ -2,10 +2,7 @@ package atv2.sdk.stripe;
 
 import java.math.BigDecimal;
 
-/**
- * Mock da biblioteca SDK do Stripe.
- * Simula as classes que viriam do pacote com.stripe em produção.
- */
+
 public class StripeClient {
 
     private final String apiKey;

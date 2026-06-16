@@ -1,6 +1,6 @@
 package atv2.sdk.stripe;
 
-/** Simula o objeto PaymentIntent retornado pelo SDK do Stripe. */
+
 public class StripePaymentIntent {
 
     private final String id;
