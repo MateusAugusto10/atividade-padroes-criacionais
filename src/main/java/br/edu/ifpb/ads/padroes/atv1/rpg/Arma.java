@@ -1,9 +1,6 @@
 package model;
 
-/**
- * PROTOTYPE: implementa Cloneable para permitir cópias de armas
- * sem acoplar o cliente à classe concreta.
- */
+
 public class Arma implements Cloneable {
 
     private String nome;

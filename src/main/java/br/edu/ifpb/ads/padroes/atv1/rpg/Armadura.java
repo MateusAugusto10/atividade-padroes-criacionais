@@ -1,8 +1,6 @@
 package model;
 
-/**
- * PROTOTYPE: implementa Cloneable para cópias independentes de armaduras.
- */
+
 public class Armadura implements Cloneable {
 
     private String nome;
